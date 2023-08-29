@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0288D1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@mipmap/img" />
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/et_shape"
+        android:ems="10"
+        android:hint="   Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_shape"
+        android:ems="10"
+        android:hint="   Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_width="163dp"
+            android:layout_height="59dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#0288D1"
+            android:hint="Login"
+            android:paddingStart="10dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_register_Register"
+            android:layout_width="163dp"
+            android:layout_height="59dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#0288D1"
+            android:hint="Register"
+            android:paddingStart="10dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/et_gender"
+        android:text="Remember me?"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

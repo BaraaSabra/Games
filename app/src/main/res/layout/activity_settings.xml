@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings_Activity">
+
+    <Button
+        android:id="@+id/btn_allgames"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0288D1"
+        android:hint="Show all games"
+        android:text="Show all games"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_dategame"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0288D1"
+        android:hint="Show last game date"
+        android:text="Show last game date"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnchpassword"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0288D1"
+        android:hint="Change password"
+        android:text="Change password"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#0288D1"
+        android:hint="Clear game history"
+        android:text="Clear game history"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+</LinearLayout>
